@@ -5,7 +5,7 @@ main{
 /* Le titre de lapage */
 .titre_plage{
     text-align: center;
-    padding: 6% 0;
+    padding: 3% 0;
 }
 /* traitement des sections */
 .section_plage{
@@ -13,7 +13,7 @@ main{
     margin: auto;
     text-align: justify;
     font-size: 18px;
-    padding: 2%;
+    padding: 0 2%;
 }
 .ul_plage{
     display: flex;
