@@ -1,0 +1,39 @@
+main{
+    font-size: 18px;
+    color: #3b8fc3;
+}
+/* Le titre de lapage */
+.titre_plage{
+    text-align: center;
+    padding: 6% 0;
+}
+/* traitement des sections */
+.section_plage{
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    padding: 2%;
+}
+.ul_plage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+
+}
+.ul_plage li a{
+    color: #3b8fc3;
+}
+.liste_plage{
+    width: 80%;
+    margin: auto;
+}
+ul .ul_plage li{
+    list-style: none;
+}
+.section_plage_02{
+    margin: auto;
+    text-align: justify;
+
+}
