@@ -41,228 +41,59 @@ ul .ul_plage li{
 /*  */
 
 
-/*pour le saut de page, on cree une class que l'on met en display:none*/
+#scrol_plage{
 
-.target{
-
-
-
-    display: none
-    
-    
-    
-    }
-    
-    
-    
-    
-    
-    /* englobe le slider */
-    
-    
-    
-    .cadre_diapo{
-    
-    
-    
-    max-width: 600px;
-    
-    margin: 2rem auto;
-    
-    overflow: hidden;
-    
-        
-    
-        }
-    
-    
-    
-    .interieur_diapo{
-    
-        
-    
-    display: flex;
-    
-    width: 400%;
-    
-    transition: transform .6s ease-in-out
-    
-        
-    
-        }
-    
-    
-    
-    .description{
-    
-    
-    
-    position: relative;
-    
-    
-    
-    }
-    
-    
-    
-    .description span{
-    
-    
-    
-    position: absolute;
-    
-    left: 0;
-    
-    top: 2%;
-    
-    font-size: 75%;
-    
-    display: flex;
-    
-    padding: .5rem;
-    
-    justify-content: center;
-    
-    color: white;
-    
-    background: hsla(0,0%,0%,.35)
-    
-        
-    
-        }
-    
-        
-    
-        
-    
-    #votre_id1:target ~ .cadre_diapo .interieur_diapo{
-    
-    
-    
-    transform:translatex(0)
-    
-    
-    
-    }/*image 1*/
-    
-    
-    
-    #votre_id2:target ~ .cadre_diapo .interieur_diapo{
-    
-    
-    
-    transform:translatex(-25%)
-    
-    
-    
-    }/*image 2*/
-    
-    
-    
-    #votre_id3:target ~ .cadre_diapo .interieur_diapo{
-    
-    
-    
-    transform:translatex(-50%)
-    
-    
-    
-    }/*image 3*/
-    
-    
-    
-    #votre_id4:target ~ .cadre_diapo .interieur_diapo{
-    
-    
-    
-    transform:translatex(-75%)
-    
-    
-    
-    }/*image 4*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*navigation avec images miniatures*/
-    
-    .navigation_diapo{
-    
-        
-    
-    display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
-    
-    list-style-type: none;
-    
-    margin: 0;
-    
-    padding: 0
-    
-        
-    
-        }
-    
-    
-    
-    .navigation_diapo li {
-    
-        
-    
-        padding: .25rem;
-    
-        
-    
-        }
-    
-    
-    
-    .navigation_diapo img{
-    
-    
-    
-    border: 3px solid white;
-    
-    box-shadow:0 0 5px hsla(0,0%,0%,.4);
-    
-    
-    
-        
-    
-        }
-    
-        
-    
-        
-    
-        @media (min-width:31.25rem){
-    
-            
-    
-            .description span{
-    
-                
-    
-                font-size: initial
-    
-            
-    
-            }
-    
-        
-    
-        }
-    
-        
-    
-    
-    
-
-
-
+	scroll-padding-top: 5rem/*pour le saut de page, a ajuster selon les besoins*/
+	
+	}
+	
+	
+	.slider-scroll {
+	
+	width: 1000px;
+	max-width: 100%;
+	max-height:620px;
+	margin: 2rem auto;
+	display: flex;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;
+	}
+	
+	.slider-scroll img {
+	scroll-snap-align: center;
+	min-width: 100%;
+	 border-radius: 5px;
+		
+	}
+	
+	.ancre {
+		
+	margin: 1rem auto;
+	display: flex;
+	justify-content: center;
+	
+	}
+		
+	.ancre li{
+		
+	display: inline-flex;
+	justify-content: center;
+	align-items:center;
+	width: 30px;
+	height: 30px;
+	background: #404040;
+	border-radius: 50%;
+	}
+		
+	.ancre li a{color:white}
+		
+	.ancre li:not(:last-child){
+	  margin-right: 30px;
+	}
+	
+	
+	.ancre li a:hover {
+	  opacity: 0.5;
+	}
