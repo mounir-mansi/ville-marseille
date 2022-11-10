@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    background-color: #80b0cd;
+    margin: 3%;
+    border-radius: 20px;
+}
+.actualite{
+    width: 80%;
+    height: 25%;
+
+}
+.sliders{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation{
+    position: absolute;
+    bottom: -600px;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 50px;
+    height: 20px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+input[name="img"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 600%;
+    height: 100%;
+
+    display: flex;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.slide{
+    display: flex;
+    width: 20%;
+    transition: 0.6s;
+    flex-direction: row;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    
+
+}
+.slide img{
+    width: 80%;
+    height: 80%;
+}
+#i1:checked ~ .s1{
+    margin-left: 0;
+}
+#i2:checked ~ .s1{
+    margin-left: -20%;
+}
+#i3:checked ~ .s1{
+    margin-left: -40%;
+}
+#i4:checked ~ .s1{
+    margin-left: -60%;
+}
+#i5:checked ~ .s1{
+    margin-left: -80%;
+}
+p{
+  padding-left: 10%;
+  font-size: x-large;
+}
+h1{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+h2{
+    padding-left: 10%;
+}
+.article{
+    padding: 2%;
+}
+.prez1{
+    background-color: #80b0cd;
+    margin: 3%;
+    border-radius: 20px;
+}
+.prez1 p1{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
