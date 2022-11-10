@@ -7,19 +7,19 @@ main h2 {
   padding: 7%;
 }
 /* Le titre de lapage */
-#titre_plonger {
+#muse {
   text-align: center;
   padding: 3% 0;
 }
 /* traitement des sections */
-.section_plonger {
+.musee {
   width: 59%;
   margin: auto;
   text-align: justify;
   font-size: 18px;
   padding: 0 2%;
 }
-.plonger_center {
+.musee_center {
   text-align: center;
   padding: 5% 0;
 }
