@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,6 @@
 a{    
      text-decoration: none;
 }
-
 
 /*xxxxxxxxxxxxxHEADERxxxxxxxxxx*/
 header{
@@ -33,10 +33,8 @@ ul{
     /* margin-top: 25%; */
     font-family: 'Bree Serif', serif;
     text-align: center;
-    padding-bottom: 10%;
-        
+    padding-bottom: 10%; 
 }
-
 ul a{
     text-transform: uppercase;
     color: white;   
@@ -63,11 +61,10 @@ ul a:hover{
     position: relative;
     top: 2%;
     left: 60%;
-   
-    
     justify-content: flex-end;
     filter: rgba(255, 255, 255, 0);
  }
+
  /*bouton*/
 .bn59 {
    text-decoration: none;
@@ -81,20 +78,18 @@ ul a:hover{
    cursor: pointer;
    padding: 1%;
    opacity: 1;
-   
-  }
-  .image{
+}
+.image{
     display: flex;
     padding: 2%;
     justify-content: space-between;
     align-items: flex-start;
-  }
+}
+
 /* footer */
 footer{
     display: flex;
     width: 100%;
-    
- 
     padding-top: 5%; 
     background-color: #3b8fc3;
     justify-content: space-between;
@@ -105,7 +100,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 .footer{
     display: flex;
@@ -116,7 +110,6 @@ footer{
     justify-content: space-around;
     border-radius:15%;
 }
-
 .footer a{
     text-decoration:none; 
     color: white;
@@ -141,19 +134,12 @@ h1{
 #reseaux{
    display: flex;
     height: 50%;
-
-   
-
 }
-
 .flex_reseaux{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    align-items: center; 
     flex-direction: column;
-
-
 }
 
 /* footer 2 */
@@ -180,8 +166,7 @@ h1{
     cursor: pointer;
     height: 55px;
     width: 160px;
-  }
-
+}
 .bn60:hover{
     background-color: white ;
     color: #3b8fc3;

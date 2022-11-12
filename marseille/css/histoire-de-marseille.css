@@ -26,6 +26,9 @@ h2{
     grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 20px;
 }
+.headerHistoire1{
+    grid-column: span 3;
+}
 .headerHistoire{
     grid-column: span 3;
     padding: 30px;
@@ -42,9 +45,9 @@ nav{
     background-color: #3B8FC3;
     grid-column: 1 / 1;
 }
-div div{
+/* div div{
     background-image: url(Images/blason-marseille.png);
-}
+} */
 .child1{
     background-image: url(Images/blason-marseille.png);
 }
@@ -76,7 +79,10 @@ div div{
 #icon{
     display: none;
 }
-
+.footerHistoire{
+    grid-column: span 3;
+    grid-row-end: 10;
+}
 
 @media (max-width: 600px){
     .child1{
