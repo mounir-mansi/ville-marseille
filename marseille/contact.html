@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MARSEILLE</title>
+    <meta charset="utf-8">
+    
+    <link rel="styleSheet" href="css/contact.css">
+    <link rel="styleSheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <header>
+        <section>
+                <div class="image">
+                    <a href="index.html"><img id="logo"src="file:image-header/blason-marseille.png" alt="logo"></a> 
+                    <a href="user-login.html"><img id="user"src="file:image-header/imagesuser-removebg-preview.png" alt="user"></a> 
+                </div>
+                <div class="space"></div>
+                <ul>
+                   
+                    <li style="padding-right: 30px"><a class="bn59" href="histoire-de-marseille.html">L’histoire de Marseille</a></li>
+                    <li style="padding-right: 30px"><a class="bn59" href="les-plus-belle-randonnees.html">Les plus belle randonnées</a></li>
+                    <li style="padding-right: 30px"><a class="bn59" href="liste-des-plages.html">Liste des plages</a></li>
+                    <li style="padding-right: 30px"><a class="bn59" href="liste-des-parcs-publics.html">Liste des parcs publics</a></li>
+                    <li style="padding-right: 30px"><a class="bn59" href="annuaire-des-musees.html">Annuaire des musées</a></li>
+                    <li style="padding-right: 30px"><a class="bn59" href="contact.html">Formulaire de contact</a></li>           
+                </ul>
+        </section>
+    </header>
+    <main>
+        <h1>VOUS ÊTES UN PARTICULIER, CONTACTER LA VILLE DE MARSEILLE </h1>
+        <section class="sectionmain">
+            <div class="colonne"></div>
+            <div class="formulaire">
+                <p>Dans le cadre de la simplification des relations entre l'administration et les citoyens, il est désormais possible de saisir l'administration par voie électronique. Ce service, facultatif et gratuit, consiste à renseigner en ligne un formulaire de dépôt de demande, d'y joindre les pièces justificatives nécessaires à l'accomplissement de la démarche et de les transmettre.
+
+                   <br> A noter certaines démarches, relevant essentiellement de l’urbanisme et du droit de la construction, sont exclues du champ d’application de cette démarche – Consultez la liste des exceptions - Pour toute demande à caractère urgent (câbles électriques dénudés sur la voie publique …) vous pouvez contacter le centre d’appel Allô Mairie au 3013 (7j/7 24h/24)
+                </p>
+                <br>
+                <nav>
+                    <!-- <h3>Civilté</h3>
+                    <ol>
+                        <li class="deroulant">
+                            <a href="#">- Sélectionner -</a>
+                            <ol class="sous-menu">
+                                <li><a href="#">Madame</a></li>
+                                <li><a href="#">Monsieur</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                    <br> -->
+                    <form method="post" action="traitement.php">
+                        <fieldset id="section1">
+                            <legend>Informations Personnelles</legend>
+                            <h3>Civilité *</h3>
+                            <div class="civilite">
+                                <input type="radio" id="homme" name="sexe" value="homme">
+                                <label for="homme">&nbsp;Homme&nbsp; </label><br>
+                                <input type="radio" id="femme" name="sexe" value="femme">
+                                <label for="femme">&nbsp;Femme&nbsp;</label>
+                            </div>
+                            <br><br>
+                            <h3>Nom *</h3>
+                            <label for="non"></label>
+                            <input type="text" id="nom" name="nom" autofocus="autofocus">
+                            <br><br>
+                            <h3>Prénom *</h3>
+                            <label for="prenon"></label>
+                            <input type="text" id="prenom" name="prenom" placeholder="ex: Pierre">
+                            <br><br>
+                            <h3>Votre date de naissance *</h3>
+                            <label for="naissance"></label>
+                            <input type="date" id="naissance" name="naissance">
+                            <br><br>
+                        </fieldset>
+                        <fieldset id="section2">
+                            <legend>Informations de connexion</legend>
+                            <h3>Votre adresse (e-mail) *</h3>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="mail">
+                            <br><br>
+                            <h3>Saisir à nouveau l'adresse (e-mail) *</h3>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="mail">
+                            <br><br>
+                            <h3>Votre mot de passe *</h3>
+                            <label for="pass"></label>
+                            <input type="password" id="pass" name="pass">
+                            <br><br>
+                            <h3>Saisir à nouveau votre mot de passe *</h3>
+                            <label for="pass"></label>
+                            <input type="password" id="pass" name="pass">
+                            <br><br>
+                        </fieldset>
+                        <fieldset id="section3">
+                            <legend>Informations de contact</legend>
+                            <h3>Téléphone</h3>
+                            <label for="telephone"></label>
+                            <input type="number" id="telephone" name="telephone">
+                            <br><br>
+                            <h3>Adresse *</h3>
+                            <label for="adresse"></label>
+                            <input type="text" id="adresse" name="adresse">
+                            <br><br>
+                            <h3>Code postal *</h3>
+                            <label for="postal"></label>
+                            <input type="text" id="postal" name="postal">
+                            <br><br>
+                            <h3>Ville *</h3>
+                            <label for="ville"></label>
+                            <input type="text" id="ville" name="ville">
+                            <br><br>
+                        </fieldset>
+                        <fieldset id="section4">
+                            <legend>Votre demande</legend>
+                            <h3>Objet du message *</h3>
+                            <label for="message"></label>
+                            <input type="text" id="message" name="message">
+                            <br><br>
+                            <h3>Texte du message</h3>
+                            <label for="présentation"></label>
+                            <textarea id="presentation" name="presentation"></textarea>
+                            <br><br>
+                        </fieldset>
+                        <!-- type site pour les site web  -->
+                        <!-- <h3>Civilité *</h3>
+                        <input type="radio" id="homme" name="sexe" value="homme">
+                        <label for="homme">Homme</label><br>
+                        <input type="radio" id="femme" name="sexe" value="femme">
+                        <label for="femme">femme</label>
+                        Dans le meme type que radio, il existe le type checkbox qui permet 
+                        de faire de case mais dans ce cas on peut tte les cocher.
+                        <br><br> -->
+                        <fieldset id="section5"><input type="submit" value="Envoyer"></fieldset>
+                        
+
+
+
+                        
+                    </form>
+                </nav>
+            </div>
+            <div class="colonne"></div>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        </section>
+    </main>
+    <footer>
+        <section class="section_footer">
+            <div class="footer">
+                <a href=""><img id="logo_footer" src="image-header/blason-marseille.png" alt="logo_ville_Marseille"></a>
+            </div>
+            <div class="footer">
+                <h1>Lieux à visiter</h1>
+                    <a href="https://www.marseille.fr/culture">Notre Dame de la Garde</a>
+                    <a href="https://www.marseille.fr/sports-loisirs">Vieux Port</a>
+                    <a href="https://www.marseille.fr/mer">Plages & Calanques</a>
+                    <a href="https://www.marseille.fr/decouvrir-marseille">Vélodrome</a>
+                    <a href="https://www.sortiramarseille.fr/">Cathédrale La Major</a>
+                </div>
+            <div class="footer">
+                <h1>Loisirs et Cultures</h1>
+                <a href="https://www.marseille.fr/culture">Culture</a>
+                <a href="https://www.marseille.fr/sports-loisirs">Sports & Loisirs</a>
+                <a href="https://www.marseille.fr/mer">Mer</a>
+                <a href="https://www.marseille.fr/decouvrir-marseille">Monuments & Histoires de Marseille</a>
+                <a href="https://www.sortiramarseille.fr/">Sortir à Marseille</a>
+            </div>
+
+            <div class="footer2">
+                
+                    <a href="https://www.facebook.com/marseilleville/"><img id="reseaux" src="image-header/facebook-new.png" alt="facebook"></a>
+                    <a href="https://twitter.com/marseille"><img id="reseaux" src="image-header/twitter.png" alt="twitter"></a>
+                    <a href="https://www.instagram.com/villemarseille/"><img id="reseaux" src="image-header/instagram-new.png" alt="instagram"></a>
+                    <a href="https://www.youtube.com/user/VilledeMarseille"><img id="reseaux" src="image-header/youtube-play.png" alt="youtube-play"></a>
+                    <a class="bn60" href="contact.html">Contact</a>
+                
+            </div>
+        </section>
+        <section id="section_footer2">
+            <p>* Tous droits réservés | </p>
+            <p><a id="color_legal" href="">Mentions légales</a></p>
+        </section>
+    </footer>
+
+
+
+
+</body>
+</html>

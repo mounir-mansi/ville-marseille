@@ -1,0 +1,20 @@
+* {
+  font-size: 18px;
+  color: #3b8fc3;
+}
+.titre-parc h3 {
+  text-align: center;
+  padding: 7%;
+}
+
+.parc {
+  width: 59%;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  padding: 0 2%;
+}
+.titre-parc {
+  text-align: center;
+  padding: 5% 0;
+}

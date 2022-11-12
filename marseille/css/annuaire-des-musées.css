@@ -1,0 +1,25 @@
+main {
+  font-size: 18px;
+  color: #3b8fc3;
+}
+main h2 {
+  text-align: center;
+  padding: 7%;
+}
+/* Le titre de lapage */
+#muse {
+  text-align: center;
+  padding: 3% 0;
+}
+/* traitement des sections */
+.musee {
+  width: 59%;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+  padding: 0 2%;
+}
+.musee_center {
+  text-align: center;
+  padding: 5% 0;
+}

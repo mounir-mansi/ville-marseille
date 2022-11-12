@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Liste des plages Marseillaises</title>
+    <meta charset="utf-8" />
+    <link rel="styleSheet" href="css/index.css" />
+    <link rel="styleSheet" href="css/formulaire-d-inscription.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <div class="image">
+          <a href="index.html"
+            ><img
+              id="logo"
+              src="file:image-header/blason-marseille.png"
+              alt="logo"
+          /></a>
+          <a href="user-login.html"
+            ><img
+              id="user"
+              src="file:image-header/imagesuser-removebg-preview.png"
+              alt="user"
+          /></a>
+        </div>
+        <div class="space"></div>
+        <ul>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="histoire-de-marseille.html"
+              >L’histoire de Marseille</a
+            >
+          </li>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="les-plus-belle-randonnees.html"
+              >Les plus belle randonnées</a
+            >
+          </li>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="liste-des-plages.html">Liste des plages</a>
+          </li>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="liste-des-parcs-publics.html"
+              >Liste des parcs publics</a
+            >
+          </li>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="annuaire-des-musees.html"
+              >Annuaire des musées</a
+            >
+          </li>
+          <li style="padding-right: 30px">
+            <a class="bn59" href="contact.html">Formulaire de contact</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+
+    <form method="post" action="candidature.php">
+      <div class="login">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" /><br />
+
+        <label for="code"></label>
+        <input
+          type="passeword"
+          id="code"
+          name="code"
+          placeholder="Mot de passe"
+        />
+        <br />
+
+        <input type="submit" value="Se connecter" />
+      </div>
+      <br />
+      <div class="signup">
+        <p><strong>créer un compte</strong></p>
+
+        <label for="prenom"></label>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom" />
+        <br />
+
+        <label for="nom"></label>
+        <input type="text" id="nom" name="nom" placeholder="Nom" /> <br />
+
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <br />
+
+        <label for="telephone"></label>
+        <input
+          type="text"
+          id="telephone"
+          name="telephone"
+          placeholder="Télèphone"
+        />
+        <br />
+
+        <label for="postal"></label>
+        <input
+          type="text"
+          id="postal"
+          name="postal"
+          placeholder="Code Postal"
+        />
+        <br />
+
+        <input type="submit" value="ENVOYER" />
+      </div>
+    </form>
+
+    <footer>
+      <section class="section_footer">
+        <div class="footer">
+          <a href=""
+            ><img
+              id="logo_footer"
+              src="image-header/blason-marseille.png"
+              alt="logo_ville_Marseille"
+          /></a>
+        </div>
+        <div class="footer">
+          <h1>Lieux à visiter</h1>
+          <a href="https://www.marseille.fr/culture">Notre Dame de la Garde</a>
+          <a href="https://www.marseille.fr/sports-loisirs">Vieux Port</a>
+          <a href="https://www.marseille.fr/mer">Plages & Calanques</a>
+          <a href="https://www.marseille.fr/decouvrir-marseille">Vélodrome</a>
+          <a href="https://www.sortiramarseille.fr/">Cathédrale La Major</a>
+        </div>
+        <div class="footer">
+          <h1>Loisirs et Cultures</h1>
+          <a href="https://www.marseille.fr/culture">Culture</a>
+          <a href="https://www.marseille.fr/sports-loisirs">Sports & Loisirs</a>
+          <a href="https://www.marseille.fr/mer">Mer</a>
+          <a href="https://www.marseille.fr/decouvrir-marseille"
+            >Monuments & Histoires de Marseille</a
+          >
+          <a href="https://www.sortiramarseille.fr/">Sortir à Marseille</a>
+        </div>
+
+        <div class="footer2">
+          <a href="https://www.facebook.com/marseilleville/"
+            ><img
+              id="reseaux"
+              src="image-header/facebook-new.png"
+              alt="facebook"
+          /></a>
+          <a href="https://twitter.com/marseille"
+            ><img id="reseaux" src="image-header/twitter.png" alt="twitter"
+          /></a>
+          <a href="https://www.instagram.com/villemarseille/"
+            ><img
+              id="reseaux"
+              src="image-header/instagram-new.png"
+              alt="instagram"
+          /></a>
+          <a href="https://www.youtube.com/user/VilledeMarseille"
+            ><img
+              id="reseaux"
+              src="image-header/youtube-play.png"
+              alt="youtube-play"
+          /></a>
+          <a class="bn60" href="contact.html">Contact</a>
+        </div>
+      </section>
+      <section id="section_footer2">
+        <p>* Tous droits réservés |</p>
+        <p><a id="color_legal" href="">Mentions légales</a></p>
+      </section>
+    </footer>
+  </body>
+</html>
