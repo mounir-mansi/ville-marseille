@@ -81,6 +81,10 @@ div div{
 @media (max-width: 600px){
     .child1{
         background-image: none;
+        box-shadow: none;
+    }
+    .child1 li{
+        box-shadow: none;
     }
     .grid{
         display: flex;
