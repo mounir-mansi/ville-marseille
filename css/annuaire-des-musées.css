@@ -23,3 +23,6 @@ main h2 {
   text-align: center;
   padding: 5% 0;
 }
+.musee img {
+  width: 500px;
+}

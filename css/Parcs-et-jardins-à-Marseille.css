@@ -14,7 +14,11 @@
   font-size: 18px;
   padding: 0 2%;
 }
+
 .titre-parc {
   text-align: center;
   padding: 5% 0;
+}
+.parc img {
+  width: 500px;
 }
